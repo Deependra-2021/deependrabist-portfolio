@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Deependra Bist | Network Admin & Developer | Cinematic Portfolio</title>
+  <meta name="description" content="Explore the portfolio of Deependra Bist, a Network & System Administrator, Python Developer, Cyber Security Enthusiast, and AI/ML/DS Learner based in Kathmandu, Nepal.">
+  <meta name="keywords" content="Deependra Bist, Portfolio, Network Administrator, System Administrator, Python Developer, Cyber Security, AI, Machine Learning, Kathmandu, Nepal">
+  <meta name="author" content="Deependra Bist">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Deependra Bist | Cinematic Portfolio">
+  <meta property="og:description" content="Network & System Administrator | Python Developer | AI/ML/DS Learner | Cyber Security Enthusiast based in Kathmandu, Nepal.">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. CINEMATIC BACKGROUNDS & VIGNETTE -->
+  <canvas id="particles-canvas"></canvas>
+  <div class="cinematic-bg"></div>
+  <div class="vignette"></div>
+
+  <!-- 2. CINEMATIC INTRO EXPERIENCE -->
+  <div class="cinematic-intro" id="intro-overlay">
+    <div class="intro-content">
+      <div class="intro-logo">DEEPENDRA BIST</div>
+      <div class="intro-bar"></div>
+      <div class="intro-subtitle">Initiating Experience</div>
+    </div>
+  </div>
+
+  <!-- 3. FLOATING GLASS NAVBAR -->
+  <div class="navbar-wrapper" id="nav-wrapper">
+    <nav class="navbar" id="navbar-main">
+    <a href="#home" class="nav-logo">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M3 11L12 4l9 7"></path>
+        <path d="M6 10v10h12V10"></path>
+      </svg>
+    </a>      
+      <!-- Desktop Links -->
+      <div class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      
+      <!-- Mobile Menu Button -->
+      <button class="menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+        <span class="menu-btn-lines"></span>
+      </button>
+    </nav>
+  </div>
+
+  <!-- Mobile Overlay Menu -->
+  <div class="mobile-nav" id="mobile-overlay-menu">
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#experience" class="nav-link">Experience</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </div>
+
+  <main>
+    <!-- ==========================================
+         4. HERO SECTION
+         ========================================== -->
+    <section id="home" class="hero-section">
+      <div class="hero-glow-layer"></div>
+      
+      <div class="hero-headline" id="hero-lbl">Welcome to the future</div>
+      
+      <h1 class="hero-title" id="hero-main-title">
+        <span id="typing-target"></span><span class="cursor">|</span>
+      </h1>
+      
+      <div class="hero-subtitle-container" id="hero-sub-wrap">
+        <span class="hero-subtitle" id="rotating-subtitle">Network & System Administrator</span>
+      </div>
+      
+      <p class="hero-desc" id="hero-description">
+        Building modern digital solutions with networking, automation, cybersecurity, and software development.
+      </p>
+      
+      <div class="hero-buttons" id="hero-btns">
+        <button class="btn btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">View Projects</button>
+        <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact Me</button>
+      </div>
+      
+      <div class="hero-scroll-indicator">
+        <span>Scroll</span>
+        <div class="mouse-icon">
+          <div class="mouse-wheel"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         5. ABOUT SECTION
+         ========================================== -->
+    <section id="about">
+      <div class="section-header reveal-el">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Enthusiast & Learner</h2>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-card reveal-el delay-1">
+          <p class="about-lead">
+            I am a passionate technology enthusiast focused on networking, cybersecurity, automation, Python development, system administration, and modern web technologies.
+          </p>
+          <p class="about-text">
+            Based in Kathmandu, Nepal, I enjoy building efficient systems, learning cutting-edge technologies, and solving real-world technical problems through creative and modern solutions. My journey is fueled by a relentless desire for continuous learning and an innovative problem-solving mindset.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-dot"></div>
+              <span class="highlight-label">Computer Networking</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-dot"></div>
+              <span class="highlight-label">System Administration</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-dot"></div>
+              <span class="highlight-label">Python Development</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-dot"></div>
+              <span class="highlight-label">Cyber Security</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-dot"></div>
+              <span class="highlight-label">AI / ML / Data Science</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-dot"></div>
+              <span class="highlight-label">Digital Educator</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-visual reveal-el delay-2">
+          <div class="visual-sphere">
+            <div class="visual-ring-1"></div>
+            <div class="visual-ring-2"></div>
+            <div class="visual-core">DB</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         6. SKILLS SECTION
+         ========================================== -->
+    <section id="skills">
+      <div class="section-header reveal-el">
+        <span class="section-tag">Capabilities</span>
+        <h2 class="section-title">Core Skills</h2>
+      </div>
+      
+      <div class="skills-grid">
+        <!-- Skill 1: Networking -->
+        <div class="skill-card reveal-el delay-1">
+          <div>
+            <div class="skill-icon-wrapper">
+              <!-- Network Nodes Icon -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="16" y="16" width="6" height="6" rx="1" />
+                <rect x="2" y="16" width="6" height="6" rx="1" />
+                <rect x="9" y="2" width="6" height="6" rx="1" />
+                <path d="M12 8v8M5 16v-4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4" />
+              </svg>
+            </div>
+            <h3 class="skill-title">Computer Networking</h3>
+            <p class="skill-desc">Knowledge of network infrastructure, routing, switching, and network troubleshooting.</p>
+          </div>
+          <div class="skill-progress-container">
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill" data-progress="100%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 2: Python -->
+        <div class="skill-card reveal-el delay-2">
+          <div>
+            <div class="skill-icon-wrapper">
+              <!-- Code Icon -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+              </svg>
+            </div>
+            <h3 class="skill-title">Python Development</h3>
+            <p class="skill-desc">Building automation tools, scripts, and modern Python applications.</p>
+          </div>
+          <div class="skill-progress-container">
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill" data-progress="100%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 3: SysAdmin -->
+        <div class="skill-card reveal-el delay-3">
+          <div>
+            <div class="skill-icon-wrapper">
+              <!-- Server Icon -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+                <line x1="6" y1="6" x2="6.01" y2="6" />
+                <line x1="6" y1="18" x2="6.01" y2="18" />
+                <line x1="10" y1="6" x2="14" y2="6" />
+                <line x1="10" y1="18" x2="14" y2="18" />
+              </svg>
+            </div>
+            <h3 class="skill-title">System Administration</h3>
+            <p class="skill-desc">Managing systems, servers, operating systems, and performance optimization.</p>
+          </div>
+          <div class="skill-progress-container">
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill" data-progress="100%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 4: Web Dev -->
+        <div class="skill-card reveal-el delay-4">
+          <div>
+            <div class="skill-icon-wrapper">
+              <!-- Monitor Web Icon -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+            </div>
+            <h3 class="skill-title">Web Development</h3>
+            <p class="skill-desc">Creating responsive and modern frontend web experiences.</p>
+          </div>
+          <div class="skill-progress-container">
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill" data-progress="100%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 5: Cyber Security -->
+        <div class="skill-card reveal-el delay-5">
+          <div>
+            <div class="skill-icon-wrapper">
+              <!-- Shield Secure Icon -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </div>
+            <h3 class="skill-title">Cyber Security</h3>
+            <p class="skill-desc">Understanding security principles, system protection, and ethical security practices.</p>
+          </div>
+          <div class="skill-progress-container">
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill" data-progress="100%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 6: AI/ML/DS -->
+        <div class="skill-card reveal-el delay-6">
+          <div>
+            <div class="skill-icon-wrapper">
+              <!-- CPU/Brain Icon -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+                <rect x="9" y="9" width="6" height="6" />
+                <line x1="9" y1="1" x2="9" y2="4" />
+                <line x1="15" y1="1" x2="15" y2="4" />
+                <line x1="9" y1="20" x2="9" y2="23" />
+                <line x1="15" y1="20" x2="15" y2="23" />
+                <line x1="20" y1="9" x2="23" y2="9" />
+                <line x1="20" y1="15" x2="23" y2="15" />
+                <line x1="1" y1="9" x2="4" y2="9" />
+                <line x1="1" y1="15" x2="4" y2="15" />
+              </svg>
+            </div>
+            <h3 class="skill-title">AI / ML / Data Science</h3>
+            <p class="skill-desc">Learning intelligent systems, machine learning concepts, and data analysis.</p>
+          </div>
+          <div class="skill-progress-container">
+            <div class="skill-progress-bar">
+          <div class="skill-progress-fill" data-progress="100%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         7. PROJECTS SECTION
+         ========================================== -->
+    <section id="projects">
+      <div class="section-header reveal-el">
+        <span class="section-tag">Case Studies</span>
+        <h2 class="section-title">Featured Work</h2>
+      </div>
+      
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal-el delay-1">
+          <div>
+            <div class="project-meta">
+              <div class="project-tag-list">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Scapy</span>
+                <span class="project-tag">Networking</span>
+              </div>
+            </div>
+            <h3 class="project-title">Network Traffic Analyzer</h3>
+            <p class="project-desc">A modern tool for monitoring and analyzing network traffic efficiently, offering packet sniffing, filtering capabilities, and metrics reporting.</p>
+          </div>
+          <a href="#contact" class="project-action">
+            <span>Details & View</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal-el delay-2">
+          <div>
+            <div class="project-meta">
+              <div class="project-tag-list">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">OS API</span>
+                <span class="project-tag">Automation</span>
+              </div>
+            </div>
+            <h3 class="project-title">Python Automation Suite</h3>
+            <p class="project-desc">Automation scripts designed to simplify repetitive system and administrative tasks, boosting administrator workflow productivity.</p>
+          </div>
+          <a href="#contact" class="project-action">
+            <span>Details & View</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal-el delay-3">
+          <div>
+            <div class="project-meta">
+              <div class="project-tag-list">
+                <span class="project-tag">Security</span>
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Pentesting</span>
+              </div>
+            </div>
+            <h3 class="project-title">Cyber Security Toolkit</h3>
+            <p class="project-desc">A collection of tools focused on security testing, port scanning, vulnerabilities checks, and system analysis to fortify networks.</p>
+          </div>
+          <a href="#contact" class="project-action">
+            <span>Details & View</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card reveal-el delay-4">
+          <div>
+            <div class="project-meta">
+              <div class="project-tag-list">
+                <span class="project-tag">HTML/CSS</span>
+                <span class="project-tag">JS</span>
+                <span class="project-tag">API Integration</span>
+              </div>
+            </div>
+            <h3 class="project-title">System Monitoring Dashboard</h3>
+            <p class="project-desc">Dashboard interface for monitoring system performance and server health. Visually displays hardware utilization load in real-time.</p>
+          </div>
+          <a href="#contact" class="project-action">
+            <span>Details & View</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         8. EXPERIENCE / JOURNEY SECTION
+         ========================================== -->
+    <section id="experience">
+      <div class="section-header reveal-el">
+        <span class="section-tag">Timeline</span>
+        <h2 class="section-title">My Journey</h2>
+      </div>
+      
+      <div class="timeline-container">
+        <!-- Visual Timeline Track -->
+        <div class="timeline-track"></div>
+        <div class="timeline-progress" id="timeline-progress-bar"></div>
+        
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item reveal-el delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">Milestone 1</div>
+            <h3 class="timeline-title">Started Learning Computer Networking</h3>
+            <p class="timeline-desc">Dived deep into network topologies, protocols, subnetting, hardware operations, CCNA principles, and server structures.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item reveal-el delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">Milestone 2</div>
+            <h3 class="timeline-title">Learned Python Programming</h3>
+            <p class="timeline-desc">Mastered basic OOP concepts, automation logic, data scripting, network sockets, API connections, and script integration.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3 -->
+        <div class="timeline-item reveal-el delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">Milestone 3</div>
+            <h3 class="timeline-title">Explored Cybersecurity Concepts</h3>
+            <p class="timeline-desc">Focused on security architectures, system vulnerabilities, ethical exploitation methods, system hardening, and threat analysis.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 4 -->
+        <div class="timeline-item reveal-el delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">Milestone 4</div>
+            <h3 class="timeline-title">Built Web Development Projects</h3>
+            <p class="timeline-desc">Applied vanilla tech to render beautiful systems, developing front-end dashboards, styling components, and structuring semantic backbones.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 5 -->
+        <div class="timeline-item reveal-el delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">Milestone 5</div>
+            <h3 class="timeline-title">Started Learning AI/ML/Data Science</h3>
+            <p class="timeline-desc">Exploring deep neural systems, data statistical models, prediction formulas, NumPy, Pandas, and intelligent logic integrations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         9. CONTACT SECTION
+         ========================================== -->
+    <section id="contact">
+      <div class="contact-container">
+        <div class="contact-info reveal-el">
+          <h2 class="contact-title">Let's build something <span>incredible</span>.</h2>
+          <p class="contact-desc">
+            Have a question, an automation idea, network infrastructure challenges, or simply want to connect? Reach out, and let's craft exceptional solutions together.
+          </p>
+          
+          <div class="contact-channels">
+            <!-- Channel: Location -->
+            <div class="channel-card">
+              <div class="channel-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div class="channel-meta">
+                <span class="channel-label">Location</span>
+                <span class="channel-value">Kathmandu, Nepal</span>
+              </div>
+            </div>
+
+            <!-- Channel: Email -->
+            <div class="channel-card">
+              <div class="channel-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div class="channel-meta">
+                <span class="channel-label">Email</span>
+                <span class="channel-value">hello@deependrabist.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Contact Form Card -->
+        <div class="contact-form-wrapper reveal-el delay-2">
+          <form id="contact-form">
+            <div class="form-group">
+              <input type="text" id="fullname" class="form-input" placeholder=" " required>
+              <label for="fullname" class="form-label">Full Name</label>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" id="email" class="form-input" placeholder=" " required>
+              <label for="email" class="form-label">Email Address</label>
+            </div>
+            
+            <div class="form-group">
+              <textarea id="message" class="form-input" placeholder=" " required></textarea>
+              <label for="message" class="form-label">Your Message</label>
+            </div>
+            
+            <button type="submit" class="btn btn-primary form-btn">
+              <span>Send Message</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       10. FOOTER SIGNATURE
+       ========================================== -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-text">
+        &copy; 2026 Deependra Bist. All rights reserved.
+      </div>
+      <div class="footer-text">
+        Designed & Developed by Deependra Bist
+      </div>
+      <div class="footer-socials">
+        <!-- GitHub Link -->
+        <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub Profile">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+          </svg>
+        </a>
+        <!-- LinkedIn Link -->
+        <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn Profile">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+            <rect x="2" y="9" width="4" height="12" />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript Logic -->
+  <script src="script.js"></script>
+</body>
+</html>
